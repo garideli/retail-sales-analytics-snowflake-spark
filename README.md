@@ -41,3 +41,25 @@ This project provides a solution by building a scalable and efficient pipeline t
 1. Clone the repository:
    ```bash
    git clone https://github.com/garideli/retail-sales-analytics-snowflake-spark.git
+2.	Install dependencies:
+pip install pyspark snowflake-connector-python
+3.	Run the pipeline:
+python scripts/pipeline.py
+
+Example Use Case
+
+Analyze monthly sales trends and identify top-performing products in different regions:
+	1.	Load retail sales data from Snowflake sample datasets.
+	2.	Use Spark to transform and filter the data by month and region.
+	3.	Visualize top-performing products and regions using a dashboard tool.
+
+Visualization
+
+Reports or dashboards will be generated to showcase:
+	•	Monthly sales trends.
+	•	Regional performance.
+	•	Customer segmentation insights.
+
+License
+
+MIT License
